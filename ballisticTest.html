@@ -1,23 +1,32 @@
-    <center>
-    	<h1>Snow Rider 3D</h1>
-      
-      <iframe class="gm-iframe" id="gm-area" src="https://gogoman.neocities.org/balls" width="840" height="560" scrolling="none" frameborder="0" allowfullscreen></iframe>
-	       <div style="padding-top: 10px;padding-bottom: 10px;"  class="container" align="Center"> 
-	          <button class="theme-btn btn-style-one" onclick="openFullscreen();">FullScreen</button>
+<!DOCTYPE html>
+<html>
 
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Ballistic Chickens</title>
+  <script src="https://unpkg.com/kaboom@2001.0.0-alpha.21/dist/kaboom.js"></script>
+  <style>
+    body {
+      background: black;
+    }
+    canvas {
+      top: 0;
+      left: 0;
+      position: fixed;
+    }
+  </style>
+</head>
 
-	       </div>
+<body>
+  <script src="data.js"></script>
+    
+  <script src="code/start.js"></script>
+	<script src="code/game.js"></script>
+  <script src="code/shop.js"></script>
+  <script src="code/menu.js"></script>
+  <script src="code/achieve.js"></script>
+  <script src="/js/main.js"></script>
+</body>
 
-	    <script>
-	    var elem = document.getElementById("gm-area");
-	    function openFullscreen() {
-	      if (elem.requestFullscreen) {
-	        elem.requestFullscreen();
-	      } else if (elem.webkitRequestFullscreen) { /* Safari */
-	        elem.webkitRequestFullscreen();
-	      } else if (elem.msRequestFullscreen) { /* IE11 */
-	        elem.msRequestFullscreen();
-	      }
-	    }
-	    </script>
-	    </center>
+</html>
