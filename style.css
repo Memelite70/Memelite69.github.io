@@ -140,4 +140,11 @@ body{
                         transition: all .1s ease;
                         box-shadow: 0 0 0 0 #fff, 0 0 0 3px #1de9b6;
                     }
-                
+
+  button, input[type="button"], input[type="submit"] { 
+    color:#050; 
+    font: bold 84% 'trebuchet ms',helvetica,sans-serif; 
+    background-color:#fed; 
+    border:1px solid; 
+    border-color: #696 #363 #363 #696; 
+} 
