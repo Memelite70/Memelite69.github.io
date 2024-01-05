@@ -2,21 +2,44 @@
 	    <title>Shell Shockers - Geometry Tryhard</title>
 	    <link rel="stylesheet" href="gs.css">
     	<h1>Shell Shockers</h1>         
-
+	    <button class="theme-btn btn-style-one" onclick="openFullscreen();">FullScreen</button>
 
 
 		       
 	       </div>
 <div>
 	
+<script>
+        function create() {
+            var url = document.getElementById('input').value;
+            var win = window.open();
+            win.document.body.style.margin = '0';
+            win.document.body.style.height = '100vh';
+            var iframe = win.document.createElement('iframe');
+            iframe.style.border = 'none';
+            iframe.style.width = '100%';
+            iframe.style.height = '100%';
+            iframe.style.margin = '0';
+            iframe.src = url;
+            win.document.body.appendChild(iframe);
+        }
+        </script>
+        <input type="hidden" value="https://geometry-tryhard-assets.vercel.app/CB/index.html" placeholder="https://lsmdm.tk" id='input' autofocus>
 
       
       <iframe class="gm-iframe" id="gm-area" src="https://developmentbuild.herokuapp.com/service/hvtrs8%2F-gcmgs%2Ccpaxyeaoeq.aoo%2Fgn%5DUQ%2Fqhglnsjoakgrqim%2Fknfez.jtol" width="840" height="560" scrolling="none" frameborder="0" allowfullscreen></iframe>
-	       <div style="padding-top: 10px;padding-bottom: 10px;"  class="container" align="Center">
-		       <script>function reloadFrame(){
-  document.getElementById('myIfr').src = document.getElementById('myIfr').src;
-}</script>
-
-		       
+	       <div style="padding-top: 10px;padding-bottom: 10px;"  class="container" align="Center">     <script>
+	    var elem = document.getElementById("gm-area");
+	    function openFullscreen() {
+	      if (elem.requestFullscreen) {
+	        elem.requestFullscreen();
+	      } else if (elem.webkitRequestFullscreen) { /* Safari */
+	        elem.webkitRequestFullscreen();
+	      } else if (elem.msRequestFullscreen) { /* IE11 */
+	        elem.msRequestFullscreen();
+	      }
+	    }
+	    </script>
+	
 
 </a>
