@@ -1,11 +1,17 @@
-   <head>
-      <title>JavaScript String italics() Method</title>
-   </head>
+<!DOCTYPE html>
+<html>
+<body>
 
-   <body>
-      <script>
-         var str = new String("Demo Text");
-         document.write(str.italics());
-         alert(str.italics(googoo gaagaa));
-      </script>
-   </body>
+<p id="text_id">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever</p>
+
+
+<button onclick="myfunction()">make italic</button>
+
+<script>function myfunction() {
+ 
+   	document.getElementById("text_id").style.fontStyle = "italic";
+         
+}</script>
+
+</body>
+</html>
